@@ -1,0 +1,99 @@
+
+body{
+    font-family:"Microsoft YaHei";    font-size:20px;    font-style:normal;	padding:0px; margin:0px; color:#333333
+}
+img{ max-width:100%}
+.row{ margin:0px; padding:0px;}
+img{border:none;}
+ul{ margin:0px; padding:0px; list-style:none}
+li{ }
+a{ color:#333333; text-decoration:none}
+a:hover{ color:#e00011}
+
+
+.header{ margin:20px auto; position: -webkit-sticky; /* Safari */
+  position: sticky; height:50px;
+  top: 0; background-color:#FFFFFF}
+.logo{ display:100px; float:left; margin-left:20px; height:40px;}
+.navbars{ float:right; margin-right:20px; display:none}
+.nav{ margin-right:60px; font-size:26px;}
+.nav ul { text-align:right;  width:100%;}
+.nav ul li{ display:inline-block; margin-left:60px;}
+
+.banner img{ width:100%}
+
+h1{ text-align:center; margin:20px auto}
+.box{ clear:both}
+.about{ text-align:center; width:800px; margin:0px auto;padding:20px}
+.more{ display:inline-block; background-color:#FFFFFF; line-height:40px;border-radius:20px; font-size:26px; padding-left:30px; padding-right:30px; color:#000; border:1px #333333 solid; margin:20px auto;}
+.more2{ border:none}
+.txt_warning{ width:1000px; margin:20px auto}
+
+.footer{ background:#585858; padding:10px 0 10px 0; font-size:14px;}
+.footer>div{ max-width:1100px; margin:10px auto; color:#FFFFFF}
+.code li{ width:25%; float:left; text-align:center}
+.code li img{ width:95%;}
+
+#context{ text-align:right}
+
+
+
+.aboutbox{ width:1000px;}
+.course{ width:900px; margin:20px auto}
+.course ul{ background:url(../images/yuandian.jpg) 160px top no-repeat; font-size:16px}
+.course li{ margin-bottom:9px;}
+
+
+
+.menubox{ width:1000px; margin:0px auto}
+.menutxt{ text-align:center; margin-bottom:20px;}
+.menutxt strong{ display:block; text-align:left}
+.picmenu{ display:flex; margin-bottom:60px;}
+.picmenu li{ width:25%; text-align:center}
+
+.space .piclist li{ width:33.3%; float:left; text-align:center; margin-bottom:20px;}
+.space .piclist li img{ padding:10px;}
+
+
+form{ display:block; width:600px;  margin:30px auto; overflow:hidden; background-color:#e3e3e3;border-radius:25px; height:50px; padding-left:20px; padding-right:30px; }
+form input{ float:left; margin-top:10px; background:none; border:none}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 668px) {
+.about{ width:100%; margin:20px auto; font-size:16px;}
+.nav{ display:none; padding:10px 0 10px 0; background-color:#000000; width:100%; clear:both; margin-right:0;}
+.nav ul li{ width:100%; display:block;  margin-left:0; text-align:center; font-size:18px; line-height:30px; margin:10px }
+.nav ul li a{ color:#FFFFFF}
+.txt_warning{ width:90%;}
+.footer>div{ margin:20px}
+#context{ text-align:center}
+.nowap{ display:none}
+.navbars{ display:block}
+
+
+.aboutbox{ width: auto;}
+.course{ width: auto; margin:20px }
+.course ul{ background:none}
+.course ul li{ border-bottom:1px #999999 dashed; padding-bottom:10px;}
+
+
+.menubox{ width:auto; margin:0px auto}
+.picmenu{ display:flex; flex-wrap:wrap;}
+.picmenu li{ width:50%; text-align:center; margin-bottom:30px}
+
+
+.space .piclist li{ width:50%}
+
+form{ width:90%; }
+
+
+
+}
